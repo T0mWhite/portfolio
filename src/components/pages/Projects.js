@@ -10,16 +10,16 @@ export default function Projects() {
       </div>
 
       <div className="d-flex flex-row flex-wrap container-fluid pt-3 justify-content-center vh-100">
-        <div className="col-sm-6 mx-4">
+        <div className="col mx-4 my-3">
           <ProjectCard />
         </div>
-        <div className="col-sm-6 mx-4">
+        <div className="col mx-4 my-3">
           <ProjectCard />
         </div>
-        <div className="col-sm-6 mx-4">
+        <div className="col mx-4 my-3">
           <ProjectCard />
         </div>
-        <div className="col-sm-6 mx-4">
+        <div className="col mx-4 my-3">
           <ProjectCard />
         </div>
       </div>
