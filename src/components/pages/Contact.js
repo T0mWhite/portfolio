@@ -4,7 +4,7 @@ export default function Contact() {
   return (
     <div className="w-50 text-center mx-auto">
       <form className="needs-validation">
-        <div className="p-2">
+        <div className="p-2 mt-5">
           <div className="mb-3 input-group">
             <span class="input-group-text">📧</span>
             <label for="email" className="form-label"></label>
