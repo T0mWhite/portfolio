@@ -3,12 +3,26 @@ import ProjectCard from "../ProjectCard";
 
 export default function Projects() {
   return (
-    <div className="display-flex">
-      <h1>Projects Page</h1>
-      <ProjectCard />
-      <ProjectCard />
-      <ProjectCard />
-      <ProjectCard />
-    </div>
+    <>
+      <div>
+        <h1>Projects Page</h1>
+        <p>Check out my work</p>
+      </div>
+
+      <div className="d-flex flex-row flex-wrap container pt-3 justify-content-center vh-100">
+        <div className="col-sm-3 mx-4">
+          <ProjectCard />
+        </div>
+        <div className="col-sm-3 mx-4">
+          <ProjectCard />
+        </div>
+        <div className="col-sm-3 mx-4">
+          <ProjectCard />
+        </div>
+        <div className="col-sm-3 mx-4">
+          <ProjectCard />
+        </div>
+      </div>
+    </>
   );
 }
