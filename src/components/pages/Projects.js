@@ -3,7 +3,7 @@ import ProjectCard from "../ProjectCard";
 
 export default function Projects() {
   return (
-    <body className="m-5">
+    <div className="m-5">
       <div className="text-center">
         <h1>Projects</h1>
         <p>Check out my work</p>
@@ -31,6 +31,6 @@ export default function Projects() {
           </div>
         </div>
       </div>
-    </body>
+    </div>
   );
 }
