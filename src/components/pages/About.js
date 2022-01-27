@@ -4,7 +4,7 @@ import styles from "../../styles/css/custom.css";
 export default function About() {
   return (
     <>
-      <div className="container">
+      <div className="container my-3">
         <div className="row">
           <div className="col-md-6">
             <h1>Tommy White</h1>
@@ -22,7 +22,7 @@ export default function About() {
           </div>
         </div>
       </div>
-      <div className="parent container d-flex justify-content-center align-items-center h-100">
+      <div className="parent container h-100">
         <div className="justify-content-center">
           <p className="p-4">
             Passionate about functionality and end-user experience, his
