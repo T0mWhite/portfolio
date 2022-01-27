@@ -8,7 +8,7 @@ export default Footer;
 function Footer() {
   return (
     <footer>
-      <nav class="navbar navbar-expand-sm bg-dark navbar-dark p-3">
+      <nav class="navbar navbar-expand-sm sticky-bottom bg-dark navbar-dark p-3">
         <div class="container-fluid">
           <ul class="navbar-nav">
             <li class="nav-item">
