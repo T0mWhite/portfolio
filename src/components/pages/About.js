@@ -1,24 +1,29 @@
 import React from "react";
-import styles from "../../styles/css/custom.css";
+import Headshot from "../../assets/images/Headshot.jpg";
 
 export default function About() {
   return (
     <>
-      <div className="container my-3">
+      <div className="container my-3 textbox__styles section__styles">
         <div className="row">
           <div className="col-md-6">
-            <h1>Tommy White</h1>
             <p>
               Tommy is a web developer with extensive experience embracing the
               challenge of troubleshooting brand new technologies.
             </p>
           </div>
           <div className="col-md-6">
-            <img
-              src="http://placecorgi.com/640/360"
-              className="card-img-top rounded"
-              alt="..."
-            />
+            <div>
+              <div className="">
+                <img
+                  className="headshot__styles"
+                  src={Headshot}
+                  height="250px"
+                  width="300px"
+                  alt="headshot"
+                />
+              </div>
+            </div>
           </div>
         </div>
       </div>

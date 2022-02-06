@@ -1,5 +1,7 @@
 import React from "react";
+
 // import placeholder from "http://placecorgi.com/260/180";
+
 export default function ProjectCard() {
   return (
     <div className="card ">

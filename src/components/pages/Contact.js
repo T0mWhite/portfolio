@@ -35,10 +35,11 @@ export default function Contact() {
             I can.
           </div>
         </div>
-
-        <button type="submit" className="btn btn-primary">
-          Get in touch!
-        </button>
+        <div className="p-2">
+          <button type="submit" className="btn btn-primary">
+            Get in touch!
+          </button>
+        </div>
       </form>
     </div>
   );

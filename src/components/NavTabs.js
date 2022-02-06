@@ -4,7 +4,7 @@ import React from "react";
 // We assign them to their own variable names
 function NavTabs({ currentPage, handlePageChange }) {
   return (
-    <nav className="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
+    <nav className="navbar navbar-expand-sm navbar_styles navbar-dark sticky-top">
       <div className="container">
       
       {/* Name in the navbar */}
@@ -29,6 +29,15 @@ function NavTabs({ currentPage, handlePageChange }) {
         {/* Standard navbar that collapses */}
         <div className="collapse navbar-collapse justify-content-flex-end" id="collapsibleNavbar">
           <ul className="navbar-nav">
+            <li className="nav-item">
+              <a
+                className="nav-link"
+                href="#home"
+                onClick={() => handlePageChange("Home")}
+              >
+                Home
+              </a>
+            </li>
             <li className="nav-item">
               <a
                 className="nav-link"
