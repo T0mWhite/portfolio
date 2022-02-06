@@ -174,8 +174,8 @@ h2 {
 .about__card {
     border: 5px solid rgb(0, 0, 0);
     border-radius: 10px;
-    height: 300px;
-    max-width: 25%;
+    height: 350px;
+    max-width: 20%;
     min-width: 325px;
     flex: .5 3 10px;
     margin: 15px;
