@@ -8,24 +8,26 @@ export default Footer;
 
 function Footer() {
   return (
-    <div class="navcontainer">
-      <footer id="contact" class="flex-footer">
-        <ul>
-          <li>
-            <a href={"https://github.com/T0mWhite"}>
-              <img src={GitHub} height="35px" width="35px"></img>
-            </a>
-          </li>
-          <li>
-            <h2> &copy; Thomas White</h2>
-          </li>
-          <li>
-            <a href="https://www.linkedin.com/in/tom-white-942778224/">
-              <img src={LinkedIn} height="35px" width="40px"></img>
-            </a>
-          </li>
-        </ul>
-      </footer>
+    <div className="navcontainer">
+        <footer class="flex-footer">
+          <ul>
+            <li>
+              <a href={"https://github.com/T0mWhite"}>
+                <img src={GitHub} height="35px" width="35px"></img>
+              </a>
+            </li>
+            <li>
+              <h2> &copy; Thomas White</h2>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/tom-white-942778224/">
+                <img src={LinkedIn} height="35px" width="40px"></img>
+              </a>
+            </li>
+          </ul>
+        </footer>
+
     </div>
+
   );
 }

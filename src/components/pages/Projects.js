@@ -1,36 +1,92 @@
 import React from "react";
-import ProjectCard from "../ProjectCard";
 
 export default function Projects() {
   return (
-    <div className="m-5">
-      <div className="text-center">
-        <h1>Projects</h1>
-        <p>Check out my work</p>
-      </div>
-
-      <div className="containter">
-        <div className="row m-3">
-          <div className="col-md-6">
-            <ProjectCard />
-          </div>
-          <div className="col-md-6">
-            <ProjectCard />
-          </div>
- 
-        </div>
-        <div className="row m-3">
-          <div className="col-md-4">
-            <ProjectCard />
-          </div>
-          <div className="col-md-4">
-            <ProjectCard />
-          </div>
-          <div className="col-md-4">
-            <ProjectCard />
-          </div>
+    <div className="container">
+      <div className="m-5">
+        <div className="text-center">
+          <h1>Projects</h1>
         </div>
       </div>
+      <main className="container">
+      <section className="card card3">
+          <header>
+            <a
+              href="https://github.com/T0mWhite/Text-Editor"
+              target="about_blank"
+            >
+              Text Editor
+            </a>
+          </header>
+          <div className="project-text">
+            <p>
+              A simple text editor that can be used in the browser as well as installed and used offline. IndexedDB is used to save the text to be retrieved when opening the app at a later date.
+            </p>
+          </div>
+        </section>
+        <section className="card card5">
+          <header>
+            <a
+              href="https://github.com/T0mWhite/Social-Media-API"
+              target="about_blank"
+            >
+              Social Network API
+            </a>
+          </header>
+          <div className="project-text">
+            <p>
+            A skeleton for a social media app. It supplies users with thoughts and reactions to those thoughts, as well as the ability to have friends. All of these items are stored in MongoDB, a noSQL database, and loose relationships are tethered through mongoose.js.
+            </p>
+          </div>
+        </section>
+        <section className="card card1">
+          <header>
+            <a
+              href="https://t0mwhite.github.io/HW1---Semantic-HTML/"
+              target="about_blank"
+            >
+              Search Engine Optimization
+            </a>
+          </header>
+          <div className="project-text">
+            <p>
+              Refactored HTML and CSS to achieve accurate and concise
+              search engine results. Brought code-base to accessibility
+              standards. Eased maintainability of code through semantic elements
+              and descriptive comments.
+            </p>
+          </div>
+        </section>
+        <section className="card card2">
+          <header>
+            <a
+              href="https://github.com/T0mWhite/Employee-Tracker"
+              target="about_blank"
+            >
+              Employee Tracker
+            </a>
+          </header>
+          <div className="project-text">
+            <p>
+              A lightweight application for employers to track and edit
+              employees and departments within their company. Through the CLI the user can follow prompts to edit information.
+            </p>
+          </div>
+        </section>
+        <section className="card card4">
+          <header>
+            <a
+              href="https://github.com/T0mWhite/Note-Taker"
+              target="about_blank"
+            >
+              Note Taker
+            </a>
+          </header>
+          <div className="project-text">
+            <p>A simple app to save notes for later use.</p>
+          </div>
+        </section>
+      </main>
     </div>
   );
 }
