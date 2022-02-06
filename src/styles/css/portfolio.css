@@ -212,7 +212,7 @@ header {
 }
 
 .projects__bottom_spacing {
-    height: 300px;
+  height: 300px;
 }
 
 .card1 {
@@ -314,6 +314,31 @@ header {
   filter: none;
 }
 
+/* Contact */
+.contact__card {
+  text-align: center;
+  border: 5px solid rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.35);
+  border-radius: 10px;
+  height: 350px;
+  max-width: 40%;
+  min-width: 325px;
+  flex: 0.5 3 10px;
+  margin: 15px;
+  width: 75%;
+  padding: 10px;
+}
+
+.form__spacing {
+  padding: 15px;
+}
+
+textarea {
+  min-height: 65px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
 /* Media queries for screen sizes */
 /* Mobile */
 @media all and (max-width: 768px) {
@@ -322,19 +347,9 @@ header {
     line-height: 30px;
     flex-direction: column;
   }
-  .flex-footer ul {
-    /* margin-top: 20%; */
-  }
+
   .project-text {
     top: 40%;
     left: 60%;
   }
 }
-
-/* Laptop
-@media all and (max-width:1280px) {
-/* No change needed */
-
-/* Full 1080p */
-/* @media all and (max-width:1920px) { */
-/* No change needed */

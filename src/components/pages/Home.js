@@ -9,7 +9,7 @@ export default function Home() {
         <img
           className="home__card"
           src={HomeImage}
-          alt="home image"
+          alt="home"
         />
 
         <div class="home__text">
