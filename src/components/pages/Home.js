@@ -9,9 +9,7 @@ export default function Home() {
         <img
           className="home__card"
           src={HomeImage}
-          height="250px"
-          width="300px"
-          alt="headshot"
+          alt="home image"
         />
 
         <div class="home__text">
