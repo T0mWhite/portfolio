@@ -1,20 +1,26 @@
 import React from "react";
-import "../../styles/css/custom.css";
-
-import Jumbotron from "../../assets/images/JumbotronImg-TW.jpg";
+import "../../styles/css/portfolio.css";
+import HomeImage from "../../assets/images/homeimage.jpg";
 
 export default function Home() {
   return (
-    <div>
-      <div className="center jumbotron__container m-3">
+    <>
+      <main class="home__container">
         <img
-          className="image__style"
-          src={Jumbotron}
-          height="350px"
-          width="1000px"
-          alt="jumbotron"
+          className="home__card"
+          src={HomeImage}
+          height="250px"
+          width="300px"
+          alt="headshot"
         />
-      </div>
-    </div>
+
+        <div class="home__text">
+          <p>
+            Tommy is a web developer with extensive experience embracing the
+            challenge of learning and troubleshooting new technologies.
+          </p>
+        </div>
+      </main>
+    </>
   );
 }

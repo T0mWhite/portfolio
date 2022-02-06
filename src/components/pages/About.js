@@ -7,22 +7,14 @@ export default function About() {
       <div className="container my-3 textbox__styles section__styles">
         <div className="row">
           <div className="col-md-6">
-            <p>
-              Tommy is a web developer with extensive experience embracing the
-              challenge of troubleshooting brand new technologies.
-            </p>
-          </div>
-          <div className="col-md-6">
-            <div>
-              <div className="">
-                <img
-                  className="headshot__styles"
-                  src={Headshot}
-                  height="250px"
-                  width="300px"
-                  alt="headshot"
-                />
-              </div>
+            <div className="">
+              <img
+                className="headshot__styles"
+                src={Headshot}
+                height="250px"
+                width="300px"
+                alt="headshot"
+              />
             </div>
           </div>
         </div>
