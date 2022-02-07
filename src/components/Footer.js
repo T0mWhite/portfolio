@@ -20,7 +20,7 @@ function Footer() {
               <h2> &copy; Thomas White</h2>
             </li>
             <li>
-              <a href="https://www.linkedin.com/in/tom-white-942778224/">
+              <a href="www.linkedin.com/in/t0mwhite">
                 <img src={LinkedIn} height="35px" width="40px"></img>
               </a>
             </li>
