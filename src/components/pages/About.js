@@ -25,7 +25,7 @@ export default function About() {
           </p>
         </div>
         <div>
-          <a className="about__text" href="https://www.linkedin.com/in/t0mwhite">
+          <a className="about__text" href={"https://www.linkedin.com/in/t0mwhite"}>
             Resume
           </a>
         </div>
