@@ -9,7 +9,7 @@ export default function Projects() {
         </div>
       </div>
       <main className="container">
-      <section className="card card5">
+      <section className="card card6">
           <header>
             <a
               href="https://github.com/T0mWhite/dochub"
@@ -20,7 +20,7 @@ export default function Projects() {
           </header>
           <div className="project-text">
             <p>
-              My final bootcamp project. DocHub is a resource for developers to view, rate, and submit programming documentation that makes sense to new developers. WThis project is still in development to become a full-fledged website after the course.
+              My final bootcamp project. DocHub is a resource for developers to view, rate, and submit programming documentation that makes sense to new developers. This project is still in development to become a full-fledged website after the course.
             </p>
           </div>
         </section>

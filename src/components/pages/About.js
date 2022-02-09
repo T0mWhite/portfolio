@@ -24,7 +24,7 @@ export default function About() {
           </p>
         </div>
         <div>
-          <a className="about__text" href={"https://www.linkedin.com/in/t0mwhite"}>
+          <a className="about__text" href={"https://docs.google.com/document/d/14jv51lQsV4KxF0zR1CGyhtR9aA9X87FTYD_PapEazn8/edit?usp=sharing"}>
             Resume
           </a>
         </div>
