@@ -9,7 +9,7 @@ function NavTabs({ currentPage, handlePageChange }) {
             <li>
               {/* Name in the navbar */}
               <a href="#home" onClick={() => handlePageChange("Home")}>
-                Tommy White
+                Thomas White
               </a>
             </li>
             <li>
