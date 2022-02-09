@@ -20,7 +20,7 @@ export default function Projects() {
           </header>
           <div className="project-text">
             <p>
-              My final bootcamp project. DocHub is a resource for developers to view, rate, and submit programming documentation that makes sense to new developers. We are continuing to develop this after the camp.
+              My final bootcamp project. DocHub is a resource for developers to view, rate, and submit programming documentation that makes sense to new developers. WThis project is still in development to become a full-fledged website after the course.
             </p>
           </div>
         </section>
