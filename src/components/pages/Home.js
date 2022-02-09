@@ -14,7 +14,7 @@ export default function Home() {
 
         <div class="home__text">
           <p>
-            Tommy is a web developer with extensive experience embracing the
+            Thomas is a web developer with extensive experience embracing the
             challenge of learning and troubleshooting new technologies.
           </p>
         </div>
