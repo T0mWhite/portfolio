@@ -15,6 +15,11 @@ body {
   background-image: repeating-radial-gradient(rgb(37, 37, 37), #0d2926);
 }
 
+input,textarea{
+  font-family: inherit;
+  font-size: 16px;
+  }
+
 /* Top nav and footer stylings */
 h1 {
   text-align: center;
@@ -347,6 +352,10 @@ header {
   margin: 15px;
   width: 75%;
   padding: 10px;
+}
+
+details {
+  
 }
 
 .form__spacing {

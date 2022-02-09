@@ -1,9 +1,15 @@
 import React from "react";
 
+import email from "../../assets/images/email.png"
+
 export default function Contact() {
   return (
     <div className="container">
-      <form className="contact__card">
+      <div className="contact__card">
+        <h2>Email:</h2>
+        <img src={email}></img>
+      </div>
+      {/* <form className="contact__card">
         <div className="form__spacing">
           <div>
             <label for="email"></label>
@@ -11,7 +17,6 @@ export default function Contact() {
               type="email"
               className="form-control"
               id="email"
-              aria-describedby="emailHelp"
               placeholder="Enter email"
               name="email"
             />
@@ -22,8 +27,8 @@ export default function Contact() {
           <label for="inputMessage"></label>
           <textarea
             id="message"
-            rows="5"
-            aria-describedby="messageHelp"
+            rows="2"
+
             placeholder="Enter message"
           />
           <div id="messageHelp">
@@ -34,7 +39,7 @@ export default function Contact() {
         <div>
           <button className="about__text" type="submit">📧 Send it! 📧</button>
         </div>
-      </form>
+      </form> */}
     </div>
   );
 }
