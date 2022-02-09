@@ -12,7 +12,6 @@ export default function About() {
           width="1920px"
           alt="headshot"
         />
-
         <div className="about__text">
           <p>
             Passionate about functionality and end-user experience, his

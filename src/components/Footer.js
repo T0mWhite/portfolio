@@ -26,8 +26,6 @@ function Footer() {
             </li>
           </ul>
         </footer>
-
     </div>
-
   );
 }

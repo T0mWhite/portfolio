@@ -9,6 +9,21 @@ export default function Projects() {
         </div>
       </div>
       <main className="container">
+      <section className="card card5">
+          <header>
+            <a
+              href="https://github.com/T0mWhite/dochub"
+              target="about_blank"
+            >
+              Documentation Hub
+            </a>
+          </header>
+          <div className="project-text">
+            <p>
+              My final bootcamp project. DocHub is a resource for developers to view, rate, and submit programming documentation that makes sense to new developers. We are continuing to develop this after the camp.
+            </p>
+          </div>
+        </section>
       <section className="card card3">
           <header>
             <a

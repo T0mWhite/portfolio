@@ -314,6 +314,26 @@ header {
   filter: none;
 }
 
+.card6 {
+  background-image: url(../../assets/images/DocHubExample.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-height: 450px;
+}
+
+.card6 header {
+  border: 5px solid #000000;
+  border-radius: 10px;
+  background: rgba(0, 0, 0);
+  position: relative;
+  padding: 5px;
+  top: -50px;
+  right: 30px;
+  width: 250px;
+  filter: none;
+}
+
 /* Contact */
 .contact__card {
   text-align: center;
