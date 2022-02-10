@@ -19,10 +19,11 @@ body {
   background-image: repeating-radial-gradient(rgb(37, 37, 37), #0d2926);
 }
 
-input,textarea{
+input,
+textarea {
   font-family: inherit;
   font-size: 16px;
-  }
+}
 
 /* Top nav and footer stylings */
 h1 {
@@ -30,6 +31,15 @@ h1 {
   font-size: 48px;
   text-shadow: 3px 3px #000000;
   margin: 15px 0px 0px 0px;
+}
+
+h2 {
+  text-align: center;
+  vertical-align: center;
+  font-size: 20px;
+  color: #979797;
+  text-shadow: 3px 3px #000000;
+  margin: 0px 0px 0px 0px;
 }
 
 a {
@@ -90,13 +100,13 @@ a:hover {
   background: rgba(0, 0, 0, 0.35);
 }
 
-h2 {
+h3 {
   text-align: center;
   vertical-align: center;
   font-size: 20px;
   color: #979797;
   text-shadow: 3px 3px #000000;
-  margin: 0px 0px 0px 0px;
+  margin: 15px 0px 0px 0px;
 }
 
 /* Main Items */
@@ -196,7 +206,7 @@ details > summary {
 }
 
 .card:hover {
-  border: 10px solid rgb(0, 0, 0);
+  border: 5px solid rgb(0, 0, 0);
   font-size: 18px;
 }
 

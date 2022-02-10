@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <>
       <main className="home__container">
-        <h1>Thomas White</h1>
+        <h1>Tommy White</h1>
         <img className="home__card" src={HomeImage} alt="home" />
         <div className="home__text">
           <h2>

@@ -24,7 +24,7 @@ function Footer() {
           </li>
         </ul>
       </footer>
-      <h2> &copy; Thomas White</h2>
+      <h3> &copy; Thomas White</h3>
     </div>
   );
 }
