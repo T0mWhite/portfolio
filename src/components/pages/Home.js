@@ -5,18 +5,14 @@ import HomeImage from "../../assets/images/homeimage.jpg";
 export default function Home() {
   return (
     <>
-      <main class="home__container">
-        <img
-          className="home__card"
-          src={HomeImage}
-          alt="home"
-        />
-
-        <div class="home__text">
-          <p>
-            Thomas is a web developer with extensive experience embracing the
-            challenge of learning and troubleshooting new technologies.
-          </p>
+      <main className="home__container">
+        <h1>Thomas White</h1>
+        <img className="home__card" src={HomeImage} alt="home" />
+        <div className="home__text">
+          <h2>
+            Audiovisual technician turned web developer with extensive experience embracing the challenge of
+            learning and troubleshooting new technologies.
+          </h2>
         </div>
       </main>
     </>

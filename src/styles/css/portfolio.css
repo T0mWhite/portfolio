@@ -4,6 +4,10 @@ html {
   color: #979797;
 }
 
+section {
+  height: 5000px;
+}
+
 *,
 *::before *::after {
   box-sizing: inherit;
@@ -89,10 +93,10 @@ a:hover {
 h2 {
   text-align: center;
   vertical-align: center;
-  font-size: 18px;
+  font-size: 20px;
   color: #979797;
   text-shadow: 3px 3px #000000;
-  margin: 15px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
 }
 
 /* Main Items */
@@ -116,7 +120,7 @@ h2 {
 }
 
 .home__text {
-  background-color: rgba(0, 0, 0, 0.8); /* Black w/opacity/see-through */
+  background-color: rgba(0, 0, 0, 0.6); /* Black w/opacity/see-through */
   color: #979797;
   font-size: 16px;
   font-weight: bold;
@@ -160,6 +164,11 @@ h2 {
   margin-bottom: 15px;
 }
 
+details > summary {
+  cursor: pointer;
+  margin: 10px;
+}
+
 /* Projects */
 
 .container {
@@ -189,7 +198,6 @@ h2 {
 .card:hover {
   border: 10px solid rgb(0, 0, 0);
   font-size: 18px;
-  color: white;
 }
 
 header {
@@ -352,10 +360,6 @@ header {
   margin: 15px;
   width: 75%;
   padding: 10px;
-}
-
-details {
-  
 }
 
 .form__spacing {
