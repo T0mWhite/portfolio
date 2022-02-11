@@ -3,11 +3,6 @@ import React from "react";
 export default function Projects() {
   return (
     <div className="container">
-    {/* //   <div className="m-5">
-    //     <div className="text-center">
-    //       <h1>Projects</h1>
-    //     </div>
-    //   </div> */}
       <main className="container">
       <section className="card card6">
           <header>

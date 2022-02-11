@@ -15,15 +15,15 @@ export default function About() {
         />
         <div className="about__text">
           <p>
-            Passionate about functionality and end-user experience, his
+            I am passionate about functionality and end-user experience. My
             dedicated troubleshooting skills have been developed in the web and
-            audio-visual space. A strong independent and group collaborator, he
-            has insight to dig deep and solve complex issues and create
-            solutions with a focus on functionality and reliability. He has
-            recently earned a Certificate in Full Stack Web Development from
-            Southern Methodist University.
+            audio-visual space over a 5 year time-span. As a strong independent and group collaborator, I
+            have the insight to dig deep, solve complex issues and create
+            solutions with a focus on functionality and reliability.
           </p>
-          <div className="">
+          <p>
+            My experience serving clients of many fields, including private businesses, corporations, and government facilities, proves my ability to adapt and pivot to understand challenges from customer's eyes. Through tireless troubleshooting and concise communication, I help clients develop a clear idea of their needs, and work with them to create solutions that meet their expectations.
+          </p>
         <details>
             <summary>Front-End</summary>
             <img
@@ -73,7 +73,6 @@ export default function About() {
               width="60px"
             />
           </details>
-        </div>
         </div>
         <div>
           <a className="about__text" href={"https://docs.google.com/document/d/14jv51lQsV4KxF0zR1CGyhtR9aA9X87FTYD_PapEazn8/edit?usp=sharing"}>

@@ -6,7 +6,7 @@ export default function Contact() {
   return (
     <div className="container">
       <div className="contact__card">
-        <h2>Email:</h2>
+        <h3>Reach out to me on LinkedIn (below), or send me an email at:</h3>
         <img src={email}></img>
       </div>
       {/* <form className="contact__card">
