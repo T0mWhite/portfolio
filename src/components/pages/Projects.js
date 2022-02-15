@@ -27,6 +27,12 @@ export default function Projects() {
             >
               Text Editor
             </a>
+            <a
+              href="https://simplest-text-editor.herokuapp.com/"
+              target="about_blank"
+            >
+              Live Demo
+            </a>
           </header>
           <div className="project-text">
             <p>
@@ -90,6 +96,12 @@ export default function Projects() {
               target="about_blank"
             >
               Note Taker
+            </a>
+            <a
+              href="https://the-simple-note-taker-app.herokuapp.com/"
+              target="about_blank"
+            >
+              Live Demo
             </a>
           </header>
           <div className="project-text">
