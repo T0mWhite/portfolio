@@ -185,10 +185,21 @@ details img {
   transition: all 0.1s;
 }
 
+details img:hover:after {
+  display: block;
+  content: attr(title);
+  position: absolute;
+  bottom: 5px;
+  background-color: rgba(200, 200, 200, 0.8);
+  border-radius:2px;
+  padding:2px;
+}
+
 details > img:hover {
  border: 3px solid #979797;
  border-radius: 3px;
 }
+
 
 /* Projects */
 
