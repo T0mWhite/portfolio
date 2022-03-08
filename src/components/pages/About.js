@@ -1,6 +1,8 @@
 import React from "react";
 import Headshot from "../../assets/images/Headshot.jpg";
 import Express from "../../assets/images/express.png";
+import Windows from "../../assets/images/windows10.png";
+import Xubuntu from "../../assets/images/xubuntulogo.png";
 
 export default function About() {
   return (
@@ -17,12 +19,12 @@ export default function About() {
           <p>
             I am passionate about functionality and end-user experience. My
             dedicated troubleshooting skills have been developed in the web and
-            audio-visual space over a 5 year time-span. As a strong independent and group collaborator, I
+            audio-visual space over a 5 year time-span. Through these times I have consistently emerged as a leader, mentoring my peers and leading complex and technical projects. As a strong independent and group collaborator, I
             have the insight to dig deep, solve complex issues and create
             solutions with a focus on functionality and reliability.
           </p>
           <p>
-            My experience serving clients of many fields, including private businesses, corporations, and government facilities, proves my ability to adapt and pivot to understand challenges from customer's eyes. Through tireless troubleshooting and concise communication, I help clients develop a clear idea of their needs, and work with them to create solutions that meet their expectations.
+            My experience serving clients of many fields, including private businesses, corporations, and government facilities, proves my ability to adapt and pivot to understand challenges from customer's eyes. Through tireless troubleshooting and concise communication, I help clients develop a clear idea of their needs, and work with them to create solutions that meet their expectations and responsibilities.
           </p>
         <details>
             <summary>Front-End</summary>
@@ -72,6 +74,13 @@ export default function About() {
               height="60px"
               width="60px"
             />
+          </details>
+          <details>
+            <summary>
+              OS
+            </summary>
+            <img src={Windows} height="60px" width="60px" />
+            <img src={Xubuntu} height="60px" width="60px" />
           </details>
         </div>
         <div>

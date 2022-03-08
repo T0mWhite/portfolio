@@ -10,8 +10,8 @@ export default function Home() {
         <img className="home__card" src={HomeImage} alt="home" />
         <div className="home__text">
           <h2>
-            Audiovisual technician turned web developer with extensive experience embracing the challenge of
-            learning and developing with new technologies.
+            Former audiovisual technician turned full-stack developer with extensive experience embracing the challenge of
+            learning and developing with cutting-edge technologies.
           </h2>
         </div>
       </main>

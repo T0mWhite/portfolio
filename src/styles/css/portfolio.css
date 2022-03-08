@@ -224,7 +224,7 @@ header {
   font-weight: bold;
   border: 3px solid #979797;
   position: relative;
-  top: 40%;
+  top: 30%;
   left: 75%;
   transform: translate(-50%, -50%);
   z-index: 1;
@@ -392,7 +392,7 @@ textarea {
   }
 
   .project-text {
-    top: 40%;
+    top: 30%;
     left: 60%;
   }
 }

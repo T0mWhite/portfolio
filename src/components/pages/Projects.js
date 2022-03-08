@@ -4,21 +4,6 @@ export default function Projects() {
   return (
     <div className="container">
       <main className="container">
-      <section className="card card6">
-          <header>
-            <a
-              href="https://github.com/T0mWhite/dochub"
-              target="about_blank"
-            >
-              Documentation Hub
-            </a>
-          </header>
-          <div className="project-text">
-            <p>
-              DocHub is a resource for developers to view, rate, and submit programming documentation that is clear and concise. This project is in ongoing development.
-            </p>
-          </div>
-        </section>
       <section className="card card3">
           <header>
             <a
@@ -86,6 +71,21 @@ export default function Projects() {
             <p>
               A lightweight application for employers to track and edit
               employees and departments within their company. Through the CLI the user can follow prompts to edit information.
+            </p>
+          </div>
+        </section>
+        <section className="card card6">
+          <header>
+            <a
+              href="https://github.com/T0mWhite/dochub"
+              target="about_blank"
+            >
+              Documentation Hub
+            </a>
+          </header>
+          <div className="project-text">
+            <p>
+              DocHub is a resource for developers to view, rate, and submit programming documentation that is clear and concise. This project is in ongoing development.
             </p>
           </div>
         </section>
