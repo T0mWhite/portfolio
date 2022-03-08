@@ -13,13 +13,13 @@ function Footer() {
         <ul>
           <li>
             <a href={"https://github.com/T0mWhite"}>
-              <img src={GitHub} height="35px" width="35px"></img>
+              <img src={GitHub} alt='GitHub' height="35px" width="35px"></img>
             </a>
           </li>
 
           <li>
             <a href={"https://www.linkedin.com/in/t0mwhite"}>
-              <img src={LinkedIn} height="35px" width="40px"></img>
+              <img src={LinkedIn} alt='linkedIn' height="35px" width="40px"></img>
             </a>
           </li>
         </ul>

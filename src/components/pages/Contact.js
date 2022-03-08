@@ -1,13 +1,13 @@
-import React from "react";
+import React from 'react';
 
-import email from "../../assets/images/email.png"
+import email from '../../assets/images/email.png';
 
 export default function Contact() {
   return (
-    <div className="container">
-      <div className="contact__card">
+    <div className='container'>
+      <div className='contact__card'>
         <h3>Reach out to me on LinkedIn (below), or send me an email at:</h3>
-        <img src={email}></img>
+        <img title='email' src={email} alt='tbw2.mail@gmail.com'></img>
       </div>
       {/* TODO: Direct email */}
       {/* <form className="contact__card">
