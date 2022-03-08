@@ -9,6 +9,7 @@ export default function Contact() {
         <h3>Reach out to me on LinkedIn (below), or send me an email at:</h3>
         <img src={email}></img>
       </div>
+      {/* TODO: Direct email */}
       {/* <form className="contact__card">
         <div className="form__spacing">
           <div>
