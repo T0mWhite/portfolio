@@ -1,20 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.cb2fc614.css",
-    "main.js": "/static/js/main.3907118d.js",
+    "main.css": "/static/css/main.5a36c1fc.css",
+    "main.js": "/static/js/main.8748d270.js",
     "static/media/Horiseon.png": "/static/media/Horiseon.17e492834d00dc0c9c17.png",
     "static/media/homeimage.jpg": "/static/media/homeimage.d20aa81cc28d449c1643.jpg",
     "static/media/Headshot.jpg": "/static/media/Headshot.2aa36f18ff64913fee88.jpg",
     "static/media/SMAPI.PNG": "/static/media/SMAPI.c680e26710d18a2c00ee.PNG",
     "static/media/DocHubExample.jpg": "/static/media/DocHubExample.e2d0c3fb73c516d63b43.jpg",
+    "static/media/xubuntulogo.png": "/static/media/xubuntulogo.0b24d38b7fd368e36590.png",
     "static/media/Employeetracker.PNG": "/static/media/Employeetracker.4acbcc432a4ae96e74b0.PNG",
     "static/media/JATE.png": "/static/media/JATE.51f75c8b172fe03996a1.png",
+    "static/media/windows10.png": "/static/media/windows10.d092f081ac540b480da4.png",
     "index.html": "/index.html",
-    "main.cb2fc614.css.map": "/static/css/main.cb2fc614.css.map",
-    "main.3907118d.js.map": "/static/js/main.3907118d.js.map"
+    "main.5a36c1fc.css.map": "/static/css/main.5a36c1fc.css.map",
+    "main.8748d270.js.map": "/static/js/main.8748d270.js.map"
   },
   "entrypoints": [
-    "static/css/main.cb2fc614.css",
-    "static/js/main.3907118d.js"
+    "static/css/main.5a36c1fc.css",
+    "static/js/main.8748d270.js"
   ]
 }
